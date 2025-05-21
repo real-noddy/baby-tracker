@@ -1,0 +1,51 @@
+# Cursor rules for Baby Food Tracker
+
+# Framework-specific rules
+framework:next.js
+
+# TypeScript-related rules
+language:typescript
+
+# Tailwind CSS
+framework:tailwind
+
+# Database-related rules
+database:mongodb
+database:mongoose
+
+# Authentication
+framework:next-auth
+
+# UI and components
+ui:react
+
+# Chart and data visualization
+library:chart.js
+library:react-chartjs-2
+
+# Calendar
+library:react-calendar
+
+# Date handling
+library:date-fns
+
+# HTTP client
+library:axios
+
+# Development preferences
+editor.formatOnSave: true
+editor.tabSize: 2
+editor.insertSpaces: true
+
+# Next.js-specific settings
+next.transpilePackages: []
+next.experimental.turbo: true
+
+# Paths and directories to focus on
+focus.directories: ["src/app", "src/components", "src/lib", "src/models", "src/types"]
+
+# Files to exclude from search
+ignore.patterns: ["node_modules", ".next", "dist", "build", ".git"]
+
+# Environment variables
+env.required: ["MONGODB_URI", "NEXTAUTH_SECRET", "FDC_API_KEY"] 
